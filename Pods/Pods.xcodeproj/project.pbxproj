@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B42145C30545AB8CA6F8A1EBAC9D56 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF0C0029FEDB0E550AF7DA36E606A4 /* UIKitExtensions.swift */; };
+		0C75ED648DFBC7E928632C625916949B /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC4417FACEA860D046BC680762C8B /* SideMenuController.swift */; };
+		1141AB013B0FF7293D968146DA6C6A37 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A53C9856ACF3E72B498E682345703 /* TransitionAnimator.swift */; };
+		484973B3C24144FC5469462E9F1DBB60 /* CenterContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A70C11496DDE36B696687F4BF8E9F /* CenterContainmentSegue.swift */; };
+		4BEE0BE1340B6D0D117D37367E746578 /* Pods-LiftSync Coach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF40090E26BDB690B8DD5565F61D993 /* Pods-LiftSync Coach-dummy.m */; };
+		5B71415B8FD8AA217EB570B2438E8D0B /* Pods-LiftSync Coach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5702D4B93952251B3F1E2BD256AFA99 /* Pods-LiftSync Coach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F1AD11D4583E4F25574E41A2FE208BF /* SideContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CF0F933A9C4C7CE9AEF8B64362FCA /* SideContainmentSegue.swift */; };
+		79A7EAFED26093DA8842E9A8B591FA9F /* SideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD4DCA2CAA3BE907AF33A78862BCA75 /* SideMenuController-dummy.m */; };
+		7AF3ED4F5E0C1B69844AAEDBC881D881 /* SideMenuController+SideUnder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D92716ED87BA85C35C649430F34394 /* SideMenuController+SideUnder.swift */; };
+		8918FCC8F0032EA2C0438A3C076F7640 /* SideMenuController+CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871657BF9104F2DEEF87127CF2BBF14 /* SideMenuController+CustomTypes.swift */; };
+		94DE7D4E09F65FA2AE6185B9E323C076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99F8E3D2172192250755F3EA51CCDF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9BEF0A7FC8F88794781C031043FC6F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AC4B2628423CC23FC6A2812248D8211D /* Pods-LiftSync Athlete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB91B8024DE343AC6E2CF38B759518FA /* Pods-LiftSync Athlete-dummy.m */; };
+		B2A40B8C48CCA20715844F0FB482EDDB /* SideMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A69CFB0455A074D54E57BFA87648FA /* SideMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F85E9344938B3C6934AA9D7B56A776 /* SideMenuController+SideOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363F45C01B97966DB459CF005A7073DC /* SideMenuController+SideOver.swift */; };
+		E7CDA87433DE5CAF8AC7F91032C8D1A9 /* Pods-LiftSync Athlete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E584A7F477A9EE65E35E9E59A54314 /* Pods-LiftSync Athlete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6BF52559A1803900F24D7CF19C0DA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642ED0EB29830F816FCF04D3ED618174;
+			remoteInfo = SideMenuController;
+		};
+		F708A40A2BF3A5FCC6F364BEF955ED07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642ED0EB29830F816FCF04D3ED618174;
+			remoteInfo = SideMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077A70C11496DDE36B696687F4BF8E9F /* CenterContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterContainmentSegue.swift; path = Source/CenterContainmentSegue.swift; sourceTree = "<group>"; };
+		085FE7EE66E1A01F1DA43EC498321C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8C218AF6BD8A78760FE5095D6C61DF /* Pods-LiftSync Athlete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LiftSync Athlete.modulemap"; sourceTree = "<group>"; };
+		30959F95E7BB023007B88D0A3266D1E8 /* Pods-LiftSync Coach-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiftSync Coach-frameworks.sh"; sourceTree = "<group>"; };
+		363F45C01B97966DB459CF005A7073DC /* SideMenuController+SideOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideOver.swift"; path = "Source/SideMenuController+SideOver.swift"; sourceTree = "<group>"; };
+		388CF0F933A9C4C7CE9AEF8B64362FCA /* SideContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideContainmentSegue.swift; path = Source/SideContainmentSegue.swift; sourceTree = "<group>"; };
+		44019CF0FF61B560479A7DE741187170 /* SideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuController.framework; path = SideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46234DBCB222085A3839E5CB87E0E1BB /* Pods-LiftSync Athlete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiftSync Athlete.release.xcconfig"; sourceTree = "<group>"; };
+		4A45D8941C77612B800EEA428C193D0F /* Pods-LiftSync Athlete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiftSync Athlete.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1A53C9856ACF3E72B498E682345703 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = "<group>"; };
+		50607C84548EE8B2318FAED08697630C /* Pods-LiftSync Coach-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiftSync Coach-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FCA065287265A69301CD8011ADB3C0C /* Pods-LiftSync Athlete-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiftSync Athlete-frameworks.sh"; sourceTree = "<group>"; };
+		60568D9345EE4FF25D4B2F99F3583EE9 /* SideMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenuController.modulemap; sourceTree = "<group>"; };
+		78E584A7F477A9EE65E35E9E59A54314 /* Pods-LiftSync Athlete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiftSync Athlete-umbrella.h"; sourceTree = "<group>"; };
+		83278C088C7642DF9951A08833664D3D /* Pods-LiftSync Athlete-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiftSync Athlete-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A199726180937E8ED7E27A78A977240 /* SideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		A95908EB6A0EB05A622726E47573E1CC /* Pods-LiftSync Athlete-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiftSync Athlete-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB91B8024DE343AC6E2CF38B759518FA /* Pods-LiftSync Athlete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiftSync Athlete-dummy.m"; sourceTree = "<group>"; };
+		AF0FE5A21DB6D19A6406104F83F7170E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7ACC4417FACEA860D046BC680762C8B /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = Source/SideMenuController.swift; sourceTree = "<group>"; };
+		B9BB9A45EE838E58BE395A2F3A0FA536 /* Pods-LiftSync Coach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiftSync Coach.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AC5F5FB446B0761EB21B9C2501E612 /* Pods_LiftSync_Coach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiftSync_Coach.framework; path = "Pods-LiftSync Coach.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF40090E26BDB690B8DD5565F61D993 /* Pods-LiftSync Coach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiftSync Coach-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D038B3A3B0469A1FFEFB0AFD47D7DDB0 /* Pods_LiftSync_Athlete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiftSync_Athlete.framework; path = "Pods-LiftSync Athlete.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D92716ED87BA85C35C649430F34394 /* SideMenuController+SideUnder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideUnder.swift"; path = "Source/SideMenuController+SideUnder.swift"; sourceTree = "<group>"; };
+		D1CEE142960FD202326D76BD55E9DC02 /* Pods-LiftSync Coach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LiftSync Coach.modulemap"; sourceTree = "<group>"; };
+		D5702D4B93952251B3F1E2BD256AFA99 /* Pods-LiftSync Coach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiftSync Coach-umbrella.h"; sourceTree = "<group>"; };
+		D9D7A6596B190DA596B94722B79E7E38 /* Pods-LiftSync Coach-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiftSync Coach-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDF878D96A7A88F53582C07FED8AB7F4 /* SideMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuController.xcconfig; sourceTree = "<group>"; };
+		E3A69CFB0455A074D54E57BFA87648FA /* SideMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-umbrella.h"; sourceTree = "<group>"; };
+		E3EF0C0029FEDB0E550AF7DA36E606A4 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
+		E871657BF9104F2DEEF87127CF2BBF14 /* SideMenuController+CustomTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+CustomTypes.swift"; path = "Source/SideMenuController+CustomTypes.swift"; sourceTree = "<group>"; };
+		EC8580B0407BD08E98243AA7A0837847 /* Pods-LiftSync Athlete-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiftSync Athlete-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7C0C2D6D2C4EC66611A1D4F99B2DB93 /* Pods-LiftSync Coach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiftSync Coach.release.xcconfig"; sourceTree = "<group>"; };
+		FAD4DCA2CAA3BE907AF33A78862BCA75 /* SideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuController-dummy.m"; sourceTree = "<group>"; };
+		FC585306E0EC342DC6DBAC3B56249711 /* Pods-LiftSync Coach-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiftSync Coach-resources.sh"; sourceTree = "<group>"; };
+		FE22917F7F05645ECC73AEA6AC00B7A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A03B1DDAE37A5ECB5EA45B4A690559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE7D4E09F65FA2AE6185B9E323C076 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCAFDF99585B1F799F959E576AAD504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F8E3D2172192250755F3EA51CCDF6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A387FD8B98408FEF59509E6E0F0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEF0A7FC8F88794781C031043FC6F8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4C26ECD73E02243B5548AE7E2827C6 /* Pods-LiftSync Coach */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE5A21DB6D19A6406104F83F7170E /* Info.plist */,
+				D1CEE142960FD202326D76BD55E9DC02 /* Pods-LiftSync Coach.modulemap */,
+				50607C84548EE8B2318FAED08697630C /* Pods-LiftSync Coach-acknowledgements.markdown */,
+				D9D7A6596B190DA596B94722B79E7E38 /* Pods-LiftSync Coach-acknowledgements.plist */,
+				CAF40090E26BDB690B8DD5565F61D993 /* Pods-LiftSync Coach-dummy.m */,
+				30959F95E7BB023007B88D0A3266D1E8 /* Pods-LiftSync Coach-frameworks.sh */,
+				FC585306E0EC342DC6DBAC3B56249711 /* Pods-LiftSync Coach-resources.sh */,
+				D5702D4B93952251B3F1E2BD256AFA99 /* Pods-LiftSync Coach-umbrella.h */,
+				B9BB9A45EE838E58BE395A2F3A0FA536 /* Pods-LiftSync Coach.debug.xcconfig */,
+				F7C0C2D6D2C4EC66611A1D4F99B2DB93 /* Pods-LiftSync Coach.release.xcconfig */,
+			);
+			name = "Pods-LiftSync Coach";
+			path = "Target Support Files/Pods-LiftSync Coach";
+			sourceTree = "<group>";
+		};
+		2DFCD323E5B1BD93181548FF1C14434E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE22917F7F05645ECC73AEA6AC00B7A6 /* Info.plist */,
+				60568D9345EE4FF25D4B2F99F3583EE9 /* SideMenuController.modulemap */,
+				DDF878D96A7A88F53582C07FED8AB7F4 /* SideMenuController.xcconfig */,
+				FAD4DCA2CAA3BE907AF33A78862BCA75 /* SideMenuController-dummy.m */,
+				9A199726180937E8ED7E27A78A977240 /* SideMenuController-prefix.pch */,
+				E3A69CFB0455A074D54E57BFA87648FA /* SideMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuController";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BC6E69CD27C8F8A72C62A3881AB65A5F /* Pods */,
+				C01E14B2E327EF5EB8D6A38E46D316C2 /* Products */,
+				F346C65AB1DB353AD428AF4ECA6599B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6E69CD27C8F8A72C62A3881AB65A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C42C1ED35CE3E362650E44EA30B4C4A2 /* SideMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C01E14B2E327EF5EB8D6A38E46D316C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D038B3A3B0469A1FFEFB0AFD47D7DDB0 /* Pods_LiftSync_Athlete.framework */,
+				C5AC5F5FB446B0761EB21B9C2501E612 /* Pods_LiftSync_Coach.framework */,
+				44019CF0FF61B560479A7DE741187170 /* SideMenuController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42C1ED35CE3E362650E44EA30B4C4A2 /* SideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				077A70C11496DDE36B696687F4BF8E9F /* CenterContainmentSegue.swift */,
+				388CF0F933A9C4C7CE9AEF8B64362FCA /* SideContainmentSegue.swift */,
+				B7ACC4417FACEA860D046BC680762C8B /* SideMenuController.swift */,
+				E871657BF9104F2DEEF87127CF2BBF14 /* SideMenuController+CustomTypes.swift */,
+				363F45C01B97966DB459CF005A7073DC /* SideMenuController+SideOver.swift */,
+				D0D92716ED87BA85C35C649430F34394 /* SideMenuController+SideUnder.swift */,
+				4B1A53C9856ACF3E72B498E682345703 /* TransitionAnimator.swift */,
+				E3EF0C0029FEDB0E550AF7DA36E606A4 /* UIKitExtensions.swift */,
+				2DFCD323E5B1BD93181548FF1C14434E /* Support Files */,
+			);
+			name = SideMenuController;
+			path = SideMenuController;
+			sourceTree = "<group>";
+		};
+		F346C65AB1DB353AD428AF4ECA6599B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D16772E8FD59794F3C3B6329641EBB /* Pods-LiftSync Athlete */,
+				2C4C26ECD73E02243B5548AE7E2827C6 /* Pods-LiftSync Coach */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7D16772E8FD59794F3C3B6329641EBB /* Pods-LiftSync Athlete */ = {
+			isa = PBXGroup;
+			children = (
+				085FE7EE66E1A01F1DA43EC498321C97 /* Info.plist */,
+				1D8C218AF6BD8A78760FE5095D6C61DF /* Pods-LiftSync Athlete.modulemap */,
+				A95908EB6A0EB05A622726E47573E1CC /* Pods-LiftSync Athlete-acknowledgements.markdown */,
+				EC8580B0407BD08E98243AA7A0837847 /* Pods-LiftSync Athlete-acknowledgements.plist */,
+				AB91B8024DE343AC6E2CF38B759518FA /* Pods-LiftSync Athlete-dummy.m */,
+				5FCA065287265A69301CD8011ADB3C0C /* Pods-LiftSync Athlete-frameworks.sh */,
+				83278C088C7642DF9951A08833664D3D /* Pods-LiftSync Athlete-resources.sh */,
+				78E584A7F477A9EE65E35E9E59A54314 /* Pods-LiftSync Athlete-umbrella.h */,
+				4A45D8941C77612B800EEA428C193D0F /* Pods-LiftSync Athlete.debug.xcconfig */,
+				46234DBCB222085A3839E5CB87E0E1BB /* Pods-LiftSync Athlete.release.xcconfig */,
+			);
+			name = "Pods-LiftSync Athlete";
+			path = "Target Support Files/Pods-LiftSync Athlete";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24FEA0D6C7A8E2123BF6C5C9E9E4A0B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CDA87433DE5CAF8AC7F91032C8D1A9 /* Pods-LiftSync Athlete-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406ECCBBB6D852690989727237D20769 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B71415B8FD8AA217EB570B2438E8D0B /* Pods-LiftSync Coach-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477BBBE3E55AE83E9D8658B0F934402D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A40B8C48CCA20715844F0FB482EDDB /* SideMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		642ED0EB29830F816FCF04D3ED618174 /* SideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B13C100794AF53FD5FCB06B983A5F2 /* Build configuration list for PBXNativeTarget "SideMenuController" */;
+			buildPhases = (
+				9C5A99234FD18D74F9382EB9AA60CDA6 /* Sources */,
+				7FCAFDF99585B1F799F959E576AAD504 /* Frameworks */,
+				477BBBE3E55AE83E9D8658B0F934402D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuController;
+			productName = SideMenuController;
+			productReference = 44019CF0FF61B560479A7DE741187170 /* SideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A48810CE7FD619880992D18FB51F16E2 /* Pods-LiftSync Coach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DA96C8F8A8E4E7B96C242356C1B720 /* Build configuration list for PBXNativeTarget "Pods-LiftSync Coach" */;
+			buildPhases = (
+				F613CD4840C8324EBD389AF4FC5E722F /* Sources */,
+				09A03B1DDAE37A5ECB5EA45B4A690559 /* Frameworks */,
+				406ECCBBB6D852690989727237D20769 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D9E6349A1B0F8EE1124BE8EFE721E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiftSync Coach";
+			productName = "Pods-LiftSync Coach";
+			productReference = C5AC5F5FB446B0761EB21B9C2501E612 /* Pods_LiftSync_Coach.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1395419FEF844244690E9B19C7C5539 /* Pods-LiftSync Athlete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3DF81D7015FC8255C8C94A74EEF536 /* Build configuration list for PBXNativeTarget "Pods-LiftSync Athlete" */;
+			buildPhases = (
+				BC319BF6E0B4C4CD85C64531428A8DCF /* Sources */,
+				D15A387FD8B98408FEF59509E6E0F0BC /* Frameworks */,
+				24FEA0D6C7A8E2123BF6C5C9E9E4A0B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFE43A184A9DD0BFC084545BF0E6DBD /* PBXTargetDependency */,
+			);
+			name = "Pods-LiftSync Athlete";
+			productName = "Pods-LiftSync Athlete";
+			productReference = D038B3A3B0469A1FFEFB0AFD47D7DDB0 /* Pods_LiftSync_Athlete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C01E14B2E327EF5EB8D6A38E46D316C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1395419FEF844244690E9B19C7C5539 /* Pods-LiftSync Athlete */,
+				A48810CE7FD619880992D18FB51F16E2 /* Pods-LiftSync Coach */,
+				642ED0EB29830F816FCF04D3ED618174 /* SideMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5A99234FD18D74F9382EB9AA60CDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484973B3C24144FC5469462E9F1DBB60 /* CenterContainmentSegue.swift in Sources */,
+				6F1AD11D4583E4F25574E41A2FE208BF /* SideContainmentSegue.swift in Sources */,
+				8918FCC8F0032EA2C0438A3C076F7640 /* SideMenuController+CustomTypes.swift in Sources */,
+				C9F85E9344938B3C6934AA9D7B56A776 /* SideMenuController+SideOver.swift in Sources */,
+				7AF3ED4F5E0C1B69844AAEDBC881D881 /* SideMenuController+SideUnder.swift in Sources */,
+				79A7EAFED26093DA8842E9A8B591FA9F /* SideMenuController-dummy.m in Sources */,
+				0C75ED648DFBC7E928632C625916949B /* SideMenuController.swift in Sources */,
+				1141AB013B0FF7293D968146DA6C6A37 /* TransitionAnimator.swift in Sources */,
+				01B42145C30545AB8CA6F8A1EBAC9D56 /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC319BF6E0B4C4CD85C64531428A8DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B2628423CC23FC6A2812248D8211D /* Pods-LiftSync Athlete-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613CD4840C8324EBD389AF4FC5E722F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEE0BE1340B6D0D117D37367E746578 /* Pods-LiftSync Coach-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D9E6349A1B0F8EE1124BE8EFE721E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuController;
+			target = 642ED0EB29830F816FCF04D3ED618174 /* SideMenuController */;
+			targetProxy = F708A40A2BF3A5FCC6F364BEF955ED07 /* PBXContainerItemProxy */;
+		};
+		CFFE43A184A9DD0BFC084545BF0E6DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuController;
+			target = 642ED0EB29830F816FCF04D3ED618174 /* SideMenuController */;
+			targetProxy = C6BF52559A1803900F24D7CF19C0DA2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C7893B8709989B27EF88A98956953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF878D96A7A88F53582C07FED8AB7F4 /* SideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CC564DD2442DEAA56A24D9C77FD8E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46234DBCB222085A3839E5CB87E0E1BB /* Pods-LiftSync Athlete.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LiftSync Athlete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiftSync_Athlete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28D8EB0F00966FF867A9B78CE0833ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C0C2D6D2C4EC66611A1D4F99B2DB93 /* Pods-LiftSync Coach.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LiftSync Coach/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiftSync_Coach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BA3DC0FE19EAA44BC1AA38845969B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BB9A45EE838E58BE395A2F3A0FA536 /* Pods-LiftSync Coach.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LiftSync Coach/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiftSync_Coach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEA2F78F99A6227231AC60A208A8A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A45D8941C77612B800EEA428C193D0F /* Pods-LiftSync Athlete.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LiftSync Athlete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiftSync_Athlete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0C158D531F159D3D2C30B683BD98429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF878D96A7A88F53582C07FED8AB7F4 /* SideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3DF81D7015FC8255C8C94A74EEF536 /* Build configuration list for PBXNativeTarget "Pods-LiftSync Athlete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEA2F78F99A6227231AC60A208A8A92 /* Debug */,
+				1CC564DD2442DEAA56A24D9C77FD8E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DA96C8F8A8E4E7B96C242356C1B720 /* Build configuration list for PBXNativeTarget "Pods-LiftSync Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA3DC0FE19EAA44BC1AA38845969B3F /* Debug */,
+				28D8EB0F00966FF867A9B78CE0833ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B13C100794AF53FD5FCB06B983A5F2 /* Build configuration list for PBXNativeTarget "SideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C158D531F159D3D2C30B683BD98429 /* Debug */,
+				15C7893B8709989B27EF88A98956953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

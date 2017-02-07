@@ -1,0 +1,6 @@
+framework module Pods_LiftSync_Athlete {
+  umbrella header "Pods-LiftSync Athlete-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LiftSync_Coach {
+  umbrella header "Pods-LiftSync Coach-umbrella.h"
+
+  export *
+  module * { export * }
+}
