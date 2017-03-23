@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3412D9CF1E471DCB001CCC10 /* CoachAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9CE1E471DCB001CCC10 /* CoachAppCoordinator.swift */; };
+		3412D9D11E471DE0001CCC10 /* AthleteAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9D01E471DE0001CCC10 /* AthleteAppCoordinator.swift */; };
+		3412D9D71E4732E8001CCC10 /* LSStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9D61E4732E8001CCC10 /* LSStoryboard.swift */; };
+		3412D9D81E4732E8001CCC10 /* LSStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9D61E4732E8001CCC10 /* LSStoryboard.swift */; };
+		3412D9DE1E475078001CCC10 /* LSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9DD1E475078001CCC10 /* LSLoginViewController.swift */; };
+		3412D9DF1E475078001CCC10 /* LSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9DD1E475078001CCC10 /* LSLoginViewController.swift */; };
+		3412D9E21E47517F001CCC10 /* LSLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9E11E47517F001CCC10 /* LSLoginViewModel.swift */; };
+		3412D9E31E47517F001CCC10 /* LSLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412D9E11E47517F001CCC10 /* LSLoginViewModel.swift */; };
+		34955AA81E47164600EE5B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34955AA71E47164600EE5B60 /* AppDelegate.swift */; };
+		34955AAD1E47164600EE5B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34955AAB1E47164600EE5B60 /* Main.storyboard */; };
+		34955AAF1E47164600EE5B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34955AAE1E47164600EE5B60 /* Assets.xcassets */; };
+		34955AB21E47164600EE5B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34955AB01E47164600EE5B60 /* LaunchScreen.storyboard */; };
+		34955ABC1E47174E00EE5B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34955AA71E47164600EE5B60 /* AppDelegate.swift */; };
+		34955ABF1E47174E00EE5B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34955AB01E47164600EE5B60 /* LaunchScreen.storyboard */; };
+		34955AC01E47174E00EE5B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34955AAE1E47164600EE5B60 /* Assets.xcassets */; };
+		34955AC11E47174E00EE5B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34955AAB1E47164600EE5B60 /* Main.storyboard */; };
+		34A7616F1E48AAD200066EEB /* LSMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7616E1E48AAD200066EEB /* LSMenuItem.swift */; };
+		34A761701E48AAD200066EEB /* LSMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7616E1E48AAD200066EEB /* LSMenuItem.swift */; };
+		34A761721E48B39E00066EEB /* LSTableViewCompatiible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A761711E48B39E00066EEB /* LSTableViewCompatiible.swift */; };
+		34A761731E48B39E00066EEB /* LSTableViewCompatiible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A761711E48B39E00066EEB /* LSTableViewCompatiible.swift */; };
+		34A761761E48B3E900066EEB /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A761751E48B3E900066EEB /* TableViewDataSource.swift */; };
+		34A761771E48B3E900066EEB /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A761751E48B3E900066EEB /* TableViewDataSource.swift */; };
+		34CF647B1E49C64F00B4B856 /* LSDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF647A1E49C64F00B4B856 /* LSDashboardViewController.swift */; };
+		34CF647C1E49C64F00B4B856 /* LSDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF647A1E49C64F00B4B856 /* LSDashboardViewController.swift */; };
+		34CF647F1E49D26600B4B856 /* LSCoachAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF647E1E49D26600B4B856 /* LSCoachAnalyticsViewController.swift */; };
+		34CF64811E49EB2600B4B856 /* SideMenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF64801E49EB2600B4B856 /* SideMenuCoordinator.swift */; };
+		34CF64821E49EB2600B4B856 /* SideMenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF64801E49EB2600B4B856 /* SideMenuCoordinator.swift */; };
+		34CF64851E4A04D600B4B856 /* LSItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF64841E4A04D600B4B856 /* LSItemsViewController.swift */; };
+		34CF64861E4A04D600B4B856 /* LSItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF64841E4A04D600B4B856 /* LSItemsViewController.swift */; };
+		985C0B21299140F84AC33AC9 /* Pods_LiftSync_Athlete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD7D8BA99E53A10FCACE49C /* Pods_LiftSync_Athlete.framework */; };
+		BEE638FFC4C8F57C542FB04B /* Pods_LiftSync_Coach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35093DB9E9D2EA58316A14FB /* Pods_LiftSync_Coach.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CD7D8BA99E53A10FCACE49C /* Pods_LiftSync_Athlete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftSync_Athlete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E72F7F650ED8AAB81D942FE /* Pods-LiftSync Coach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftSync Coach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach.debug.xcconfig"; sourceTree = "<group>"; };
+		3412D9CE1E471DCB001CCC10 /* CoachAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoachAppCoordinator.swift; path = Common/CoachAppCoordinator.swift; sourceTree = "<group>"; };
+		3412D9D01E471DE0001CCC10 /* AthleteAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AthleteAppCoordinator.swift; path = Common/AthleteAppCoordinator.swift; sourceTree = "<group>"; };
+		3412D9D61E4732E8001CCC10 /* LSStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSStoryboard.swift; path = Helpers/LSStoryboard.swift; sourceTree = "<group>"; };
+		3412D9DD1E475078001CCC10 /* LSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSLoginViewController.swift; path = ViewControllers/Login/LSLoginViewController.swift; sourceTree = "<group>"; };
+		3412D9E11E47517F001CCC10 /* LSLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSLoginViewModel.swift; path = ViewControllers/Login/LSLoginViewModel.swift; sourceTree = "<group>"; };
+		34955AA41E47164600EE5B60 /* LiftSync Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiftSync Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34955AA71E47164600EE5B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Common/AppDelegate.swift; sourceTree = "<group>"; };
+		34955AAC1E47164600EE5B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34955AAE1E47164600EE5B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		34955AB11E47164600EE5B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34955AB31E47164600EE5B60 /* Coach-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Coach-Info.plist"; path = "Resources/Coach-Info.plist"; sourceTree = "<group>"; };
+		34955AC51E47174E00EE5B60 /* LiftSync Athlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiftSync Athlete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34955AC61E47174E00EE5B60 /* Athlete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Athlete-Info.plist"; path = "/Volumes/Projects/LiftSync/LiftSync/LiftSync/Resources/Athlete-Info.plist"; sourceTree = "<absolute>"; };
+		34A7616E1E48AAD200066EEB /* LSMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSMenuItem.swift; path = Models/MenuItem/LSMenuItem.swift; sourceTree = "<group>"; };
+		34A761711E48B39E00066EEB /* LSTableViewCompatiible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSTableViewCompatiible.swift; path = Helpers/LSTableViewCompatiible.swift; sourceTree = "<group>"; };
+		34A761751E48B3E900066EEB /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewDataSource.swift; path = Models/DataSources/TableViewDataSource.swift; sourceTree = "<group>"; };
+		34CF647A1E49C64F00B4B856 /* LSDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSDashboardViewController.swift; path = ViewControllers/Dashboard/LSDashboardViewController.swift; sourceTree = "<group>"; };
+		34CF647E1E49D26600B4B856 /* LSCoachAnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSCoachAnalyticsViewController.swift; path = ViewControllers/CoachAnalytics/LSCoachAnalyticsViewController.swift; sourceTree = "<group>"; };
+		34CF64801E49EB2600B4B856 /* SideMenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuCoordinator.swift; path = Common/SideMenuCoordinator.swift; sourceTree = "<group>"; };
+		34CF64841E4A04D600B4B856 /* LSItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSItemsViewController.swift; path = ViewControllers/ItemsViewController/LSItemsViewController.swift; sourceTree = "<group>"; };
+		35093DB9E9D2EA58316A14FB /* Pods_LiftSync_Coach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftSync_Coach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36314017E769715C02BA4EAB /* Pods-LiftSync Athlete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftSync Athlete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete.debug.xcconfig"; sourceTree = "<group>"; };
+		700C9F35D40743711F4A8785 /* Pods-LiftSync Athlete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftSync Athlete.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete.release.xcconfig"; sourceTree = "<group>"; };
+		DAD1987192501AFFA4422703 /* Pods-LiftSync Coach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftSync Coach.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34955AA11E47164600EE5B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE638FFC4C8F57C542FB04B /* Pods_LiftSync_Coach.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34955ABD1E47174E00EE5B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985C0B21299140F84AC33AC9 /* Pods_LiftSync_Athlete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3412D9DC1E474EDB001CCC10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3412D9DD1E475078001CCC10 /* LSLoginViewController.swift */,
+				3412D9E11E47517F001CCC10 /* LSLoginViewModel.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		3412D9E01E4750A6001CCC10 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				34CF647A1E49C64F00B4B856 /* LSDashboardViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		34955A9B1E47164600EE5B60 = {
+			isa = PBXGroup;
+			children = (
+				34955AA61E47164600EE5B60 /* LiftSync */,
+				34955AA51E47164600EE5B60 /* Products */,
+				A010567F3E773213E0198A94 /* Pods */,
+				D7C8C6D360C67B638F70BE60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34955AA51E47164600EE5B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34955AA41E47164600EE5B60 /* LiftSync Coach.app */,
+				34955AC51E47174E00EE5B60 /* LiftSync Athlete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34955AA61E47164600EE5B60 /* LiftSync */ = {
+			isa = PBXGroup;
+			children = (
+				34955ACB1E47177C00EE5B60 /* Common */,
+				34955ACA1E47177400EE5B60 /* Helpers */,
+				34955AC91E47177000EE5B60 /* Model */,
+				34955AC81E47176A00EE5B60 /* Views */,
+				34955AC71E47176400EE5B60 /* ViewController */,
+				34955ACC1E47178200EE5B60 /* Resources */,
+			);
+			path = LiftSync;
+			sourceTree = "<group>";
+		};
+		34955AC71E47176400EE5B60 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34CF64831E4A04C200B4B856 /* ItemsViewController */,
+				34CF647D1E49C9E000B4B856 /* CoachAnalytics */,
+				3412D9E01E4750A6001CCC10 /* Dashboard */,
+				3412D9DC1E474EDB001CCC10 /* Login */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		34955AC81E47176A00EE5B60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		34955AC91E47177000EE5B60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34A761741E48B3B700066EEB /* DataSources */,
+				34A7616D1E48AAB500066EEB /* MenuItem */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		34955ACA1E47177400EE5B60 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3412D9D61E4732E8001CCC10 /* LSStoryboard.swift */,
+				34A761711E48B39E00066EEB /* LSTableViewCompatiible.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		34955ACB1E47177C00EE5B60 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				34955AA71E47164600EE5B60 /* AppDelegate.swift */,
+				3412D9CE1E471DCB001CCC10 /* CoachAppCoordinator.swift */,
+				3412D9D01E471DE0001CCC10 /* AthleteAppCoordinator.swift */,
+				34CF64801E49EB2600B4B856 /* SideMenuCoordinator.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		34955ACC1E47178200EE5B60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34955AC61E47174E00EE5B60 /* Athlete-Info.plist */,
+				34955AB31E47164600EE5B60 /* Coach-Info.plist */,
+				34955AAB1E47164600EE5B60 /* Main.storyboard */,
+				34955AAE1E47164600EE5B60 /* Assets.xcassets */,
+				34955AB01E47164600EE5B60 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34A7616D1E48AAB500066EEB /* MenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				34A7616E1E48AAD200066EEB /* LSMenuItem.swift */,
+			);
+			name = MenuItem;
+			sourceTree = "<group>";
+		};
+		34A761741E48B3B700066EEB /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				34A761751E48B3E900066EEB /* TableViewDataSource.swift */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		34CF647D1E49C9E000B4B856 /* CoachAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				34CF647E1E49D26600B4B856 /* LSCoachAnalyticsViewController.swift */,
+			);
+			name = CoachAnalytics;
+			sourceTree = "<group>";
+		};
+		34CF64831E4A04C200B4B856 /* ItemsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34CF64841E4A04D600B4B856 /* LSItemsViewController.swift */,
+			);
+			name = ItemsViewController;
+			sourceTree = "<group>";
+		};
+		A010567F3E773213E0198A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36314017E769715C02BA4EAB /* Pods-LiftSync Athlete.debug.xcconfig */,
+				700C9F35D40743711F4A8785 /* Pods-LiftSync Athlete.release.xcconfig */,
+				2E72F7F650ED8AAB81D942FE /* Pods-LiftSync Coach.debug.xcconfig */,
+				DAD1987192501AFFA4422703 /* Pods-LiftSync Coach.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7C8C6D360C67B638F70BE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CD7D8BA99E53A10FCACE49C /* Pods_LiftSync_Athlete.framework */,
+				35093DB9E9D2EA58316A14FB /* Pods_LiftSync_Coach.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34955AA31E47164600EE5B60 /* LiftSync Coach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34955AB61E47164600EE5B60 /* Build configuration list for PBXNativeTarget "LiftSync Coach" */;
+			buildPhases = (
+				BB819D8F6D79675010AEAF9F /* [CP] Check Pods Manifest.lock */,
+				34955AA01E47164600EE5B60 /* Sources */,
+				34955AA11E47164600EE5B60 /* Frameworks */,
+				34955AA21E47164600EE5B60 /* Resources */,
+				D6BEFA52F66CDCA39A27BD69 /* [CP] Embed Pods Frameworks */,
+				3B666EF14BCF06FD1879EC82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiftSync Coach";
+			productName = LiftSync;
+			productReference = 34955AA41E47164600EE5B60 /* LiftSync Coach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34955AB91E47174E00EE5B60 /* LiftSync Athlete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34955AC21E47174E00EE5B60 /* Build configuration list for PBXNativeTarget "LiftSync Athlete" */;
+			buildPhases = (
+				274C62149518DDBE6A6C8B21 /* [CP] Check Pods Manifest.lock */,
+				34955ABA1E47174E00EE5B60 /* Sources */,
+				34955ABD1E47174E00EE5B60 /* Frameworks */,
+				34955ABE1E47174E00EE5B60 /* Resources */,
+				FCDABAA3A9C755F997863FDA /* [CP] Embed Pods Frameworks */,
+				D9770BF64112955028A8B468 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiftSync Athlete";
+			productName = LiftSync;
+			productReference = 34955AC51E47174E00EE5B60 /* LiftSync Athlete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34955A9C1E47164600EE5B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LS;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Onix-Systems";
+				TargetAttributes = {
+					34955AA31E47164600EE5B60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GJX986XEH7;
+						ProvisioningStyle = Automatic;
+					};
+					34955AB91E47174E00EE5B60 = {
+						DevelopmentTeam = GJX986XEH7;
+					};
+				};
+			};
+			buildConfigurationList = 34955A9F1E47164600EE5B60 /* Build configuration list for PBXProject "LiftSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34955A9B1E47164600EE5B60;
+			productRefGroup = 34955AA51E47164600EE5B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34955AA31E47164600EE5B60 /* LiftSync Coach */,
+				34955AB91E47174E00EE5B60 /* LiftSync Athlete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34955AA21E47164600EE5B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34955AB21E47164600EE5B60 /* LaunchScreen.storyboard in Resources */,
+				34955AAF1E47164600EE5B60 /* Assets.xcassets in Resources */,
+				34955AAD1E47164600EE5B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34955ABE1E47174E00EE5B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34955ABF1E47174E00EE5B60 /* LaunchScreen.storyboard in Resources */,
+				34955AC01E47174E00EE5B60 /* Assets.xcassets in Resources */,
+				34955AC11E47174E00EE5B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274C62149518DDBE6A6C8B21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B666EF14BCF06FD1879EC82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB819D8F6D79675010AEAF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BEFA52F66CDCA39A27BD69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiftSync Coach/Pods-LiftSync Coach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9770BF64112955028A8B468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDABAA3A9C755F997863FDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiftSync Athlete/Pods-LiftSync Athlete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34955AA01E47164600EE5B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412D9CF1E471DCB001CCC10 /* CoachAppCoordinator.swift in Sources */,
+				34955AA81E47164600EE5B60 /* AppDelegate.swift in Sources */,
+				34A761761E48B3E900066EEB /* TableViewDataSource.swift in Sources */,
+				34CF64811E49EB2600B4B856 /* SideMenuCoordinator.swift in Sources */,
+				34CF647F1E49D26600B4B856 /* LSCoachAnalyticsViewController.swift in Sources */,
+				3412D9DE1E475078001CCC10 /* LSLoginViewController.swift in Sources */,
+				3412D9E21E47517F001CCC10 /* LSLoginViewModel.swift in Sources */,
+				34A761721E48B39E00066EEB /* LSTableViewCompatiible.swift in Sources */,
+				34CF647B1E49C64F00B4B856 /* LSDashboardViewController.swift in Sources */,
+				34A7616F1E48AAD200066EEB /* LSMenuItem.swift in Sources */,
+				34CF64851E4A04D600B4B856 /* LSItemsViewController.swift in Sources */,
+				3412D9D71E4732E8001CCC10 /* LSStoryboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34955ABA1E47174E00EE5B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34955ABC1E47174E00EE5B60 /* AppDelegate.swift in Sources */,
+				34CF64861E4A04D600B4B856 /* LSItemsViewController.swift in Sources */,
+				3412D9D11E471DE0001CCC10 /* AthleteAppCoordinator.swift in Sources */,
+				34A761771E48B3E900066EEB /* TableViewDataSource.swift in Sources */,
+				3412D9DF1E475078001CCC10 /* LSLoginViewController.swift in Sources */,
+				3412D9E31E47517F001CCC10 /* LSLoginViewModel.swift in Sources */,
+				34A761731E48B39E00066EEB /* LSTableViewCompatiible.swift in Sources */,
+				34CF647C1E49C64F00B4B856 /* LSDashboardViewController.swift in Sources */,
+				34A761701E48AAD200066EEB /* LSMenuItem.swift in Sources */,
+				34CF64821E49EB2600B4B856 /* SideMenuCoordinator.swift in Sources */,
+				3412D9D81E4732E8001CCC10 /* LSStoryboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34955AAB1E47164600EE5B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34955AAC1E47164600EE5B60 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34955AB01E47164600EE5B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34955AB11E47164600EE5B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34955AB41E47164600EE5B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34955AB51E47164600EE5B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34955AB71E47164600EE5B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E72F7F650ED8AAB81D942FE /* Pods-LiftSync Coach.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJX986XEH7;
+				INFOPLIST_FILE = "$(SRCROOT)/LiftSync/Resources/Coach-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onix.liftSync.coach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34955AB81E47164600EE5B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD1987192501AFFA4422703 /* Pods-LiftSync Coach.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJX986XEH7;
+				INFOPLIST_FILE = "$(SRCROOT)/LiftSync/Resources/Coach-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onix.liftSync.coach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34955AC31E47174E00EE5B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36314017E769715C02BA4EAB /* Pods-LiftSync Athlete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJX986XEH7;
+				INFOPLIST_FILE = "$(SRCROOT)/LiftSync/Resources/Athlete-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onix.liftSync.athlete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34955AC41E47174E00EE5B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700C9F35D40743711F4A8785 /* Pods-LiftSync Athlete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJX986XEH7;
+				INFOPLIST_FILE = "$(SRCROOT)/LiftSync/Resources/Athlete-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onix.liftSync.athlete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34955A9F1E47164600EE5B60 /* Build configuration list for PBXProject "LiftSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34955AB41E47164600EE5B60 /* Debug */,
+				34955AB51E47164600EE5B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34955AB61E47164600EE5B60 /* Build configuration list for PBXNativeTarget "LiftSync Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34955AB71E47164600EE5B60 /* Debug */,
+				34955AB81E47164600EE5B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34955AC21E47174E00EE5B60 /* Build configuration list for PBXNativeTarget "LiftSync Athlete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34955AC31E47174E00EE5B60 /* Debug */,
+				34955AC41E47174E00EE5B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34955A9C1E47164600EE5B60 /* Project object */;
+}
