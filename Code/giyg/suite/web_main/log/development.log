@@ -43,3 +43,2444 @@ Migrating to AddUsernameToUsers (20170323081559)
   [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20170323081559"]]
   [1m[35m (0.3ms)[0m  COMMIT
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:21:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (1.5ms)
+  Rendered elements/_navbar.html.erb (4.0ms)
+Completed 200 OK in 6692ms (Views: 6683.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:08 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:09 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-23 04:21:14 -0400
+Processing by Users::SessionsController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError - undefined method `for' for #<Devise::ParameterSanitizer:0x007f89f4d76740>
+Did you mean?  fork:
+  app/controllers/application_controller.rb:12:in `configure_permitted_parameters'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:143:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.4) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/3fb7407c897fe12b/variables" for 127.0.0.1 at 2017-03-23 04:21:14 -0400
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:21:22 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-03-23 04:21:24 -0400
+Processing by Users::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError - undefined method `for' for #<Devise::ParameterSanitizer:0x007f89f6d1eca0>
+Did you mean?  fork:
+  app/controllers/application_controller.rb:12:in `configure_permitted_parameters'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:143:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.4) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/4c8928203ac05bc1/variables" for 127.0.0.1 at 2017-03-23 04:21:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-03-23 04:23:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Users::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError - undefined method `for' for #<Devise::ParameterSanitizer:0x007fc86d1c1c08>
+Did you mean?  fork:
+  app/controllers/application_controller.rb:12:in `configure_permitted_parameters'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:143:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.4) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.4) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.4.2) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/christophermcelveen/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/e35c8948f48dc8de/variables" for 127.0.0.1 at 2017-03-23 04:23:46 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:25:41 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (1.1ms)
+  Rendered elements/_navbar.html.erb (1.0ms)
+Completed 200 OK in 533ms (Views: 531.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:25:42 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-03-23 04:25:45 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (22.9ms)
+  Rendered elements/_navbar.html.erb (0.4ms)
+Completed 200 OK in 292ms (Views: 287.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-23 04:25:53 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+  Rendered elements/_navbar.html.erb (0.4ms)
+Completed 200 OK in 273ms (Views: 271.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[35mUser Load (2.4ms)[0m  SELECT  "users".* FROM "users"  WHERE (lower(username) = 'admin@example.com' OR lower(email) = 'admin@example.com')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 5ms
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 397ms (Views: 245.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:01 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (lower(username) = 'admin' OR lower(email) = 'admin')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 380ms (Views: 246.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:26:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:26:09 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.1ms)
+  Rendered elements/_navbar.html.erb (0.6ms)
+Completed 200 OK in 218ms (Views: 217.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:29:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (1.1ms)
+  Rendered elements/_navbar.html.erb (4.1ms)
+Completed 200 OK in 575ms (Views: 560.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:29:48 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-23 04:29:50 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.3ms)
+  Rendered elements/_navbar.html.erb (0.4ms)
+Completed 200 OK in 332ms (Views: 319.5ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"camcelve@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users"  WHERE (lower(username) = 'camcelve@gmail.com' OR lower(email) = 'camcelve@gmail.com')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 4ms
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"camcelve@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 404ms (Views: 255.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:30:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:30:05 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.0ms)
+  Rendered elements/_navbar.html.erb (0.6ms)
+Completed 200 OK in 224ms (Views: 223.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:33:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (5.6ms)
+  Rendered elements/_navbar.html.erb (3.7ms)
+Completed 200 OK in 576ms (Views: 567.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:46 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:33:47 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-23 04:33:49 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.6ms)
+  Rendered elements/_navbar.html.erb (0.4ms)
+Completed 200 OK in 311ms (Views: 297.7ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"camcelve", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE (lower(username) = 'camcelve' OR lower(email) = 'camcelve')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 3ms
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"login"=>"camcelve", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 412ms (Views: 257.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:00 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-03-23 04:34:15 -0400
+Processing by Users::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.2ms)
+  Rendered elements/_navbar.html.erb (0.6ms)
+Completed 200 OK in 268ms (Views: 266.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E=", "user"=>{"username"=>"camcelve", "email"=>"camcelve@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'camcelve@gmail.com' LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at", "username") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2017-03-23 08:34:28.224697"], ["email", "camcelve@gmail.com"], ["encrypted_password", "$2a$11$4T3YXIxg0iOvAQNS/W7fiO/YbwI9XsdCTe44pPfjmsT99ujigmCl6"], ["updated_at", "2017-03-23 08:34:28.224697"], ["username", "camcelve"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "current_sign_in_ip" = $2, "last_sign_in_at" = $3, "last_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = 1  [["current_sign_in_at", "2017-03-23 08:34:28.230390"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_at", "2017-03-23 08:34:28.230390"], ["last_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-03-23 08:34:28.231276"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 181ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered elements/_navbar.html.erb (6.8ms)
+Completed 200 OK in 247ms (Views: 245.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:28 -0400
+
+
+Started GET "/account" for 127.0.0.1 at 2017-03-23 04:34:39 -0400
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered devise/registrations/edit.html.erb within layouts/application (42.9ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 289ms (Views: 287.6ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kbLDZJ3xaWXjuIfcw3gGk55W/guXOfhWt9G0RT4MF7E="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.0ms)
+  Rendered elements/_navbar.html.erb (0.6ms)
+Completed 200 OK in 241ms (Views: 240.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:46 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-23 04:34:47 -0400
+Processing by Users::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered elements/_navbar.html.erb (0.3ms)
+Completed 200 OK in 266ms (Views: 265.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-23 04:34:50 -0400
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8k1Bwhs1uz8t6EHCm+v1G7KICEpY3AArhu8Aau7kiiA=", "user"=>{"login"=>"camcelve@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (lower(username) = 'camcelve@gmail.com' OR lower(email) = 'camcelve@gmail.com')  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = 1[0m  [["remember_created_at", "2017-03-23 08:34:50.736907"], ["updated_at", "2017-03-23 08:34:50.737459"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = 1  [["current_sign_in_at", "2017-03-23 08:34:50.741719"], ["sign_in_count", 2], ["updated_at", "2017-03-23 08:34:50.742505"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 179ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:34:50 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered elements/_navbar.html.erb (2.0ms)
+Completed 200 OK in 244ms (Views: 243.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap_configuration.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/landings.css?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/version.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/keycode.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/escape-selector.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/form.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/labels.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/button.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/ie.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/data.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/plugin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/safe-active-element.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/safe-blur.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/scroll-parent.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/disable-selection.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/focusable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/tabbable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/unique-id.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/jquery_ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/initializers/datepicker.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/initializers/filters.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin/initializers/tabs.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/landings.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-23 04:34:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-23 04:34:53 -0400
+Processing by LandingsController#index as HTML
+  Rendered landings/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered elements/_navbar.html.erb (1.7ms)
+Completed 200 OK in 227ms (Views: 225.7ms | ActiveRecord: 0.5ms)
